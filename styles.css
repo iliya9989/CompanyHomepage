@@ -1,0 +1,143 @@
+html {
+  background-color: #048ba8;
+  padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #f18f01;
+  width: 100%;
+  height: 70px;
+  top: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  width: 30%;
+  color: #2e4057;
+}
+
+.intro {
+  display: flex;
+  width: 100%;
+  height: 538px;
+  margin-top: 70px;
+  background-image: url("eblanyPhotos/gISGbgjZr5g.jpg");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Use 'fr' units for flexible columns */
+    grid-template-rows: repeat(5, 300px);
+    align-items: center;
+    justify-items: center;
+    grid-template-areas:
+        "vladPic vladPic vladPic vladPic vladPic vladPic vladDesc vladDesc vladDesc vladDesc vladDesc vladDesc"
+        "nekitDesc nekitDesc nekitDesc nekitDesc nekitDesc nekitDesc nekitPic nekitPic nekitPic nekitPic nekitPic nekitPic"
+        "sanyaPic sanyaPic sanyaPic sanyaPic sanyaDesc sanyaDesc sanyaDesc sanyaDesc sanyaDesc sanyaDesc sanyaDesc sanyaDesc"
+        "debDesc debDesc debDesc debDesc debDesc debDesc debPic debPic debPic debPic debPic debPic"
+        "bossPic bossPic bossPic bossPic bossPic bossPic bossDesc bossDesc bossDesc bossDesc bossDesc bossDesc";
+}
+
+
+.vladPic {
+  grid-area: vladPic;
+}
+.vladDesc {
+  grid-area: vladDesc;
+}
+.nekitPic {
+  grid-area: nekitPic;
+}
+.nekitDesc {
+  grid-area: nekitDesc;
+}
+.sanyaPic {
+  grid-area: sanyaPic;
+}
+.sanyaDesc {
+  grid-area: sanyaDesc;
+}
+.debPic {
+  grid-area: debPic;
+}
+.debDesc {
+  grid-area: debDesc;
+}
+.bossPic {
+  grid-area: bossPic;
+}
+.bossDesc {
+  grid-area: bossDesc;
+}
+
+img:hover {
+    width: 150%;
+    height: 150%;
+    transition: all 2s ease-in-out;
+}
+h1:hover {
+     font-size: 2rem;
+    transition: all 1s ease-in-out;
+ }
+
+h1 {
+    transition: all 1s ease-in-out;
+}
+
+.mission {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 300px;
+    grid-template-areas:
+"sucking srachi sex";
+    justify-items: center;
+}
+
+.mission div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sucking {
+    grid-area: sucking;
+    background-image: url("eblanyPhotos/massive-loss-streak-v0-y7998r9n3y6a1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.srachi {
+    grid-area: srachi;
+    background-image: url("eblanyPhotos/Argument-two-people-yelling.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.sex{
+    grid-area: sex;
+    background-image: url("eblanyPhotos/Stable-diffusion-нейронные-сети-сгенерировал-сам-нейромазня-7865456.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
